@@ -21,3 +21,12 @@ body {
   font-family: var(--font-outfit);
 }
 
+@layer components {
+  .container {
+    @apply gap-3 flex flex-col text-[var(--text-color)] bg-[var(--primary-color)] 
+    rounded-xl shadow-lg text-center
+    p-4 sm:p-5 md:p-6 lg:p-7
+    w-[350px] md:w-[400px] lg:w-[500px]
+    transition-all duration-500 ease-in-out
+  }
+}
