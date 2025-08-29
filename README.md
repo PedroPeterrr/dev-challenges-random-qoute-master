@@ -3,7 +3,7 @@
 [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.w3schools.com/typescript/index.php)
 
-🔗 **Live Site:** <a href="https://your-live-site-link.com" target="_blank" rel="noreferrer">View Here</a>
+🔗 **Live Site:** [View Here](https://dev-challenges-random-quiz-master.vercel.app)
 
 A **modern web app** that displays **random quotes** using the API provided by [devChallenges.io](https://devchallenges.io/).  
 
