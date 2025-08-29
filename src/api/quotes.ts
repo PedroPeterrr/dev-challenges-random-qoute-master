@@ -1,7 +1,9 @@
+import toast from "react-hot-toast";
 export interface Quote {
   quote: string;
   author: string;
   tags: string[];
+  error:string;
 }
 
 export const fetchQuotes = async (): Promise<Quote[]> => {
@@ -16,8 +18,8 @@ export const fetchQuotes = async (): Promise<Quote[]> => {
 
         const data: Quote[] = await res.json();
         return data;
-    } catch (err) {
-        console.error(err);
+    } catch (error) {
+        toast.error((error as Error).message || "Failed to fetch quotes");
         return [];
     }
 };
